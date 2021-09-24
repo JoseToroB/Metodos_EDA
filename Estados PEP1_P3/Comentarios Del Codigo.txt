@@ -1,0 +1,17 @@
+//este TXT es solo para explicar el funcionamiento del codigo y que hacen algunas etiquetas dentro de este
+L0 verifico si R2 es igual a 0 y si asi es paso a L28 
+L2 comienzo la resta (R1-R2) y guardo el valor B(R2) en R3
+L5 verifico si (R1-R2) es igual a 0 y si asi es paso a L31
+L7 Copio el valor (A-B) almacenado en R1 a los registros R2 Y R4
+L10 paso el valor (A-B) de R2 a R1
+L12 Copio el valor (B) almacenado en R3 a los registros R0 y R2
+L15 Paso (B) de R0 a R3
+L17 Veo si (A-B)>B y si asi es vuelvo a L0 sino paso a L19
+L19 Comienzo a ordenar los registros para que B ocupe el registro R1 y (A-B) el registro 2 y vacio el registro R3
+L20 Muevo el valor (B) de R2 a R3
+L22 Muevo el valor (A-B) de R1 a r4
+L24 Muevo el valor (B) de R3 a R1
+L26 Muevo el valor (A-B) de R4 a R2 Y vuelvo a L0 para comenzar el ciclo nuevamente hasta que se cumpla una condicion para terminar el programa
+L28 Paso R1 a R0 y lo entrego como el resultado //(viene de L0)
+L30 Es el HALT al que llegan las etiquetas L28 y L31 al terminar sus ciclos
+L31 Paso el valor almacenado en R3 a R0 y lo muestro como resultado //(viene de L5)

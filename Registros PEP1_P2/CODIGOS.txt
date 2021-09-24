@@ -1,0 +1,2 @@
+20329232_A1_P1 es el calculo de Asub4
+20329232_A1_P2 es el calculo del % de error de Asub4 respecto al valor teorico = 3,14
